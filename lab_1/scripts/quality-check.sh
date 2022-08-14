@@ -19,7 +19,7 @@
 
 set -o nounset                              # Treat unset variables as an error
 
-path=~/devops-fundamentals1/devops-fundamentals/lab_1/scripts/shop-angular-cloudfront
+path=~/devops-fundamentals1/devops-fundamentals/lab_1/data/shop-angular-cloudfront
 
 npm --prefix ${path} run test
 

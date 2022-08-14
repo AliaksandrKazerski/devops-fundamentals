@@ -19,14 +19,15 @@
 
 set -o nounset                              # Treat unset variables as an error
 
-path=~/devops-fundamentals1/devops-fundamentals/lab_1/scripts/shop-angular-cloudfront
+path=~/devops-fundamentals1/devops-fundamentals/lab_1/data/shop-angular-cloudfront
 
-if [[ -f ${path} ]]
+if [ -d  ${path} ]
 then
 	rm -fr ${path}
 fi
 
-git clone https://github.com/EPAM-JS-Competency-center/shop-angular-cloudfront.git 
+mkdir ${path}
+git clone https://github.com/EPAM-JS-Competency-center/shop-angular-cloudfront.git ${path}
 
 npm install --prefix ${path}
 
