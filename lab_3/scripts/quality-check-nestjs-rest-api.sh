@@ -1,9 +1,9 @@
 #!/bin/bash - 
 #===============================================================================
 #
-#          FILE: quality-check.sh
+#          FILE: quality-check-nestjs-rest-api.sh
 # 
-#         USAGE: ./quality-check.sh 
+#         USAGE: ./quality-check-nestjs-rest-api.sh 
 # 
 #   DESCRIPTION: 
 # 

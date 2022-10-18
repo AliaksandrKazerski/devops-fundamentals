@@ -1,9 +1,9 @@
 #!/bin/bash - 
 #===============================================================================
 #
-#          FILE: quality-check.sh
+#          FILE: quality-check-shop-angular-cloudfront.sh
 # 
-#         USAGE: ./quality-check.sh 
+#         USAGE: ./quality-check-shop-angular-cloudfront.sh 
 # 
 #   DESCRIPTION: 
 # 
